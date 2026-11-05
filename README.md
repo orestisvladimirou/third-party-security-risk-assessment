@@ -4,6 +4,10 @@
 
 > **SIMULATED CASE STUDY.** Asteria Financial Services (AFS), all supplier names, evidence, incidents, control claims, decisions and risk ratings in this repository are fictional. This is **not** an audit of any real entity, an ISO/IEC 27001 certification, regulatory legal advice, or a representation of paid professional experience.
 
+## Phase 2 follow-up
+
+[Read the simulated evidence verification and reassessment](phase2/README.md). This follow-up has seven fictional exhibits, six revised risk scores, gated vendor decisions, and automated integrity checks. The original Excel workbook remains a v1.1 baseline snapshot; Phase 2 data are in `phase2/data/`. No actual supplier or personal data is involved.
+
 ## Business problem
 
 A fictional EU financial-services firm needs a consistent process for approving, monitoring and exiting third-party technology providers. The assignment is to review three proposed vendors before contracting, distinguish control assertions from reliable evidence, quantify cyber risks, and recommend defensible onboarding decisions.

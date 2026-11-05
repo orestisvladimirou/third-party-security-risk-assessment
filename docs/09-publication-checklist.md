@@ -1,5 +1,14 @@
 # 09 — GitHub publication and presentation checklist
 
+## Additional checks for versions 1.2 and 1.3
+
+- Read [Phase 2](../phase2/README.md) and [Phase 3](../phase3/README.md); explain why the simulated payroll decision changes from HOLD to CONDITIONAL_SIMULATED and back to HOLD.
+- Confirm the original Excel workbook is clearly identified as a **v1.1 initial-assessment snapshot**, not a current all-phase dashboard.
+- Run `python scripts/validate_phase2.py` and `python scripts/validate_phase3.py` alongside existing checks.
+- Verify that all new evidence, signatures, policy tests, committee decisions, future scenario dates, and supplier changes are labelled **fictional**.
+- Before publishing, re-check all links and data, inspect repository history for sensitive material, and ensure the latest GitHub Actions workflow passes.
+- Update CV wording to describe **independent simulated GRC portfolio work**, not actual client assessments.
+
 ## Before publishing
 
 1. Read `README.md` and the management report; be able to explain every risk score and every HOLD decision.

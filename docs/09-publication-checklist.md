@@ -1,6 +1,6 @@
 # 09 — GitHub publication and presentation checklist
 
-**Status as of 2026-11-05: NOT READY FOR PUBLICATION.** The original repository workbook contains an obsolete payroll status; see [portfolio audit](15-portfolio-quality-audit.md) and [workbook provenance](17-workbook-provenance.md). Keep this repository private until the reviewed Excel workbook is committed and verified, and its owner approves release.
+**Status as of 2026-11-05: Automated technical release checks passed.** The reviewed workbook is committed. Keep the repository private until the owner completes a manual content/history review and explicitly approves public release. See [portfolio audit](15-portfolio-quality-audit.md) and [workbook provenance](17-workbook-provenance.md).
 
 ## Additional checks for versions 1.2 and 1.3
 
@@ -13,7 +13,7 @@
 
 ## Before publishing
 
-**Mandatory blocker:** Replace the stale `Third_Party_Risk_Assessment.xlsx` in GitHub, confirm `Vendors!F3` is HOLD, and include phase comparison/risk evolution information. A corrected v1.3 workbook exists locally but is **not yet committed** to GitHub.
+**Resolved:** The reviewed `Third_Party_Risk_Assessment.xlsx` is now committed to GitHub. `Vendors!F3` is HOLD and the Phase Comparison / Risk Evolution sheets are present. Run `python scripts/audit_publication.py --strict` again before publication and obtain owner approval.
 
 1. Read `README.md` and the management report; be able to explain every risk score and every HOLD decision.
 2. Confirm all organizations and artefacts in the repository are labelled **fictional/synthetic**.

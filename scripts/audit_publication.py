@@ -45,7 +45,15 @@ def workbook_audit():
             else:
                 vendor_xml = ET.fromstring(archive.read("xl/worksheets/sheet2.xml"))
                 cell = vendor_xml.find(".//" + XMLNS + "c[@r='F3']")
-                value = cell.find(XMLNS + "v").text if cell is not None and cell.find(XMLNS + "v") is not None else None
+                value = None
+                if cell is not None:
+                    scalar = cell.find(XMLNS + "v")
+                    if scalar is not None:
+                        value = scalar.text
+                    else:
+                        inline = cell.find(XMLNS + "is")
+                        if inline is not None:
+                            value = "".join(t.text or "" for t in inline.findall(".//" + XMLNS + "t"))
                 if value != "HOLD":
                     issues.append(f"Workbook Vendors!F3 is {value!r}, expected HOLD (QA-01)")
             for required in ("Phase Comparison", "Risk Evolution"):

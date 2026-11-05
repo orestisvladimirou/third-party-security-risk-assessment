@@ -10,7 +10,7 @@ The repository now contains the **reviewed v1.3 Excel workbook**, replacing the 
 
 ## Phase 2 follow-up
 
-[Read the simulated evidence verification and reassessment](phase2/README.md). This follow-up has seven fictional exhibits, six revised risk scores, gated vendor decisions, and automated integrity checks. The original Excel workbook remains a v1.1 baseline snapshot; Phase 2 data are in `phase2/data/`. No actual supplier or personal data is involved.
+[Read the simulated evidence verification and reassessment](phase2/README.md). This follow-up has seven fictional exhibits, six revised risk scores, gated vendor decisions, and automated integrity checks. The Excel workbook retains the v1.1 baseline dashboard **and now includes cross-phase comparison sheets**; Phase 2 source data are in `phase2/data/`. No actual supplier or personal data is involved.
 
 ## Phase 3 monitoring scenario
 
@@ -40,7 +40,7 @@ A fictional EU financial-services firm needs a consistent process for approving,
 7. [How to defend the assessment in an interview](docs/07-interview-notes.md)
 8. [Evidence calibration and revised approval rationale](docs/08-evidence-calibration.md)
 9. [GitHub publication checklist](docs/09-publication-checklist.md)
-10. [Portfolio quality audit and outstanding blocker](docs/15-portfolio-quality-audit.md)
+10. [Portfolio quality audit and resolved workbook issue](docs/15-portfolio-quality-audit.md)
 11. [Three-phase interview walkthrough](docs/16-interview-preparation.md)
 12. [Workbook provenance and data versioning](docs/17-workbook-provenance.md)
 
@@ -82,4 +82,4 @@ Risk scores are **scenario-based judgments**, not statistical frequencies or ass
 
 Suggested repository name: `third-party-security-risk-assessment`. A GitHub Actions workflow (`.github/workflows/validate.yml`) runs the same built-in Python data checks on pushes and pull requests. This project intentionally does not rely on any other personal projects. Publish only this fictional case-study data; do not upload real supplier questionnaires, client data, secrets, internal contracts or staff information.
 
-See [`docs/07-interview-notes.md`](docs/07-interview-notes.md) for limitations and next improvements.
+For the complete three-stage interview explanation, use [`docs/16-interview-preparation.md`](docs/16-interview-preparation.md). The older [`docs/07-interview-notes.md`](docs/07-interview-notes.md) focuses on the baseline.

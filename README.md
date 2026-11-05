@@ -1,12 +1,16 @@
 # Third-Party Security Risk Assessment & Vendor Due Diligence
 
-**Independent cybersecurity portfolio exercise · Version 1.2 · 5 November 2026**
+**Independent cybersecurity portfolio exercise · Version 1.3 · 5 November 2026**
 
 > **SIMULATED CASE STUDY.** Asteria Financial Services (AFS), all supplier names, evidence, incidents, control claims, decisions and risk ratings in this repository are fictional. This is **not** an audit of any real entity, an ISO/IEC 27001 certification, regulatory legal advice, or a representation of paid professional experience.
 
 ## Phase 2 follow-up
 
 [Read the simulated evidence verification and reassessment](phase2/README.md). This follow-up has seven fictional exhibits, six revised risk scores, gated vendor decisions, and automated integrity checks. The original Excel workbook remains a v1.1 baseline snapshot; Phase 2 data are in `phase2/data/`. No actual supplier or personal data is involved.
+
+## Phase 3 monitoring scenario
+
+[Review the ongoing supplier monitoring and event-driven reassessment](phase3/README.md). This separate fictional scenario records a proposed payroll subprocessor change, a risk increase, and the withdrawal of the earlier simulation-only conditional decision. All three suppliers are on HOLD in the modeled Phase 3 state.
 
 ## Business problem
 

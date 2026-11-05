@@ -1,0 +1,10 @@
+stage,scenario_date,vendor_id,highest_residual_score,decision,reason
+Baseline,2026-11-05,CLOUD-001,20,HOLD,Initial supplier claims insufficient
+Baseline,2026-11-05,PAY-001,12,HOLD,Security and processor contracting unverified
+Baseline,2026-11-05,SUP-001,16,HOLD,Unverified RBAC and incident notification
+Phase2,2026-11-19,CLOUD-001,15,HOLD,Improved MFA but critical-function recovery unresolved
+Phase2,2026-11-19,PAY-001,8,CONDITIONAL_SIMULATED,Assumed scenario-only security and contractual gates
+Phase2,2026-11-19,SUP-001,16,HOLD,Draft-only evidence does not reduce risk
+Phase3,2026-12-01,CLOUD-001,15,HOLD,No new evidence
+Phase3,2026-12-01,PAY-001,12,HOLD,Proposed subprocessor change reopens risk and contract gates
+Phase3,2026-12-01,SUP-001,16,HOLD,No new evidence

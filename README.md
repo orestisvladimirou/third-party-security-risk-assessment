@@ -4,6 +4,10 @@
 
 > **SIMULATED CASE STUDY.** Asteria Financial Services (AFS), all supplier names, evidence, incidents, control claims, decisions and risk ratings in this repository are fictional. This is **not** an audit of any real entity, an ISO/IEC 27001 certification, regulatory legal advice, or a representation of paid professional experience.
 
+## Publication status: private, under review
+
+**Not ready to publish yet.** The repository's original Excel workbook contains one obsolete v1.1 payroll decision. A corrected v1.3 workbook exists separately and must replace the old binary before publication. Read the [portfolio quality audit](docs/15-portfolio-quality-audit.md), [workbook provenance](docs/17-workbook-provenance.md), and [updated interview preparation](docs/16-interview-preparation.md).
+
 ## Phase 2 follow-up
 
 [Read the simulated evidence verification and reassessment](phase2/README.md). This follow-up has seven fictional exhibits, six revised risk scores, gated vendor decisions, and automated integrity checks. The original Excel workbook remains a v1.1 baseline snapshot; Phase 2 data are in `phase2/data/`. No actual supplier or personal data is involved.
@@ -36,6 +40,9 @@ A fictional EU financial-services firm needs a consistent process for approving,
 7. [How to defend the assessment in an interview](docs/07-interview-notes.md)
 8. [Evidence calibration and revised approval rationale](docs/08-evidence-calibration.md)
 9. [GitHub publication checklist](docs/09-publication-checklist.md)
+10. [Portfolio quality audit and outstanding blocker](docs/15-portfolio-quality-audit.md)
+11. [Three-phase interview walkthrough](docs/16-interview-preparation.md)
+12. [Workbook provenance and data versioning](docs/17-workbook-provenance.md)
 
 ## Data and evidence
 
@@ -57,10 +64,13 @@ Requires Python 3.10+; no external dependencies.
 
 ```bash
 python scripts/validate_project.py
+python scripts/validate_phase2.py
+python scripts/validate_phase3.py
+python scripts/audit_publication.py
 python -m unittest discover -s tests -v
 ```
 
-The validator recomputes every score, checks risk bands, and verifies vendor, questionnaire, evidence, and action references. You can edit the scenario data, rerun the checks, and discuss why the decision changes.
+The validators recompute scores, check risk bands, verify cross-phase references and decision gates, and flag publication issues. Run `python scripts/audit_publication.py --strict` as the **final release gate**: it must pass before making the repository public. You can edit the scenario data, rerun the checks, and discuss why the decision changes.
 
 ## Assumptions and interpretation
 

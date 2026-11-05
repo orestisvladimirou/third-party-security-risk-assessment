@@ -1,0 +1,4 @@
+vendor_id,highest_score,phase2_decision,phase3_decision,privacy_gate,dora_gate,operational_gate,decision_rationale
+CLOUD-001,15,HOLD,HOLD,OPEN,OPEN_CRITICAL_FUNCTION_TERMS,OPEN,Two High residual risks and unresolved critical-service contracting
+PAY-001,12,CONDITIONAL_SIMULATED,HOLD,REOPENED_SUBPROCESSOR_REVIEW,REASSESS_STANDARD_ICT_TERMS,ON_HOLD,Changed supplier chain invalidates earlier fictional clearance; no conditional access pending review
+SUP-001,16,HOLD,HOLD,OPEN,OPEN_STANDARD_ICT_TERMS,OPEN,Unverified access controls and insufficient incident notification

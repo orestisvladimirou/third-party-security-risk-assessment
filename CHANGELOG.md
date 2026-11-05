@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2 — 2026-11-05
+
+- Added Phase 2 fictional evidence review with seven new exhibits and a documented verification method.
+- Added six risk reassessments, three supplier decision gates, action updates, and a management report.
+- Added Phase 2 Python validations, four regression tests, and GitHub Actions integration.
+- Corrected baseline payroll inventory status to HOLD; the later conditional outcome exists only in the simulated follow-up.
+- Kept baseline Excel workbook unchanged as a v1.1 snapshot; repository remains private.
+
 ## 1.1 — 2026-11-05
 
 - Performed evidence-quality review. Removed unsupported numerical risk reductions based solely on unverified claims.

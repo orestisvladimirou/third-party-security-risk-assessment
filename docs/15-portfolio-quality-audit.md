@@ -14,8 +14,8 @@
 | ID | Severity | Finding | Resolution / outstanding step |
 | --- | --- | --- | --- |
 | QA-01 | **Resolved** | The original workbook had an obsolete payroll status and lacked the cross-phase sheets. | The reviewed v1.3 workbook was committed in `e22e4c7a`, correcting `Vendors!F3` to HOLD and adding both sheets; strict audit passed. |
-| QA-02 | Medium | Original interview notes describe R-001's initial 20/25 risk without explaining its later 10/25 follow-up. | See `docs/16-interview-preparation.md`; use phase-specific answers. |
-| QA-03 | Medium | Original publication demo focuses only on all-three-HOLD baseline and omits Phase 2 and 3. | Updated publication checklist and cross-phase demonstration guide. |
+| QA-02 | Resolved with updated interview guide | Original interview notes describe R-001's initial 20/25 risk without explaining its later 10/25 follow-up. | See `docs/16-interview-preparation.md`; use phase-specific answers. |
+| QA-03 | Resolved with updated walkthrough | Original publication demo focuses only on all-three-HOLD baseline and omits Phase 2 and 3. | Updated publication checklist and cross-phase demonstration guide. |
 | QA-04 | Resolved | The original workbook was only an initial snapshot. | The reviewed workbook includes cross-phase summaries and labels the dashboard as the historical baseline. |
 | QA-05 | Context limitation | Every control claim, technical check, simulated approval, legal gate, and supplier change is invented. | All are labelled synthetic. Do **not** describe these as genuine supplier audits, external verification, signed contracts, certification, or professional employment. |
 

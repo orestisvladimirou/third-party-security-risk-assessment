@@ -1,5 +1,7 @@
 # 09 — GitHub publication and presentation checklist
 
+**Status as of 2026-11-05: NOT READY FOR PUBLICATION.** The original repository workbook contains an obsolete payroll status; see [portfolio audit](15-portfolio-quality-audit.md) and [workbook provenance](17-workbook-provenance.md). Keep this repository private until the reviewed Excel workbook is committed and verified, and its owner approves release.
+
 ## Additional checks for versions 1.2 and 1.3
 
 - Read [Phase 2](../phase2/README.md) and [Phase 3](../phase3/README.md); explain why the simulated payroll decision changes from HOLD to CONDITIONAL_SIMULATED and back to HOLD.
@@ -10,6 +12,8 @@
 - Update CV wording to describe **independent simulated GRC portfolio work**, not actual client assessments.
 
 ## Before publishing
+
+**Mandatory blocker:** Replace the stale `Third_Party_Risk_Assessment.xlsx` in GitHub, confirm `Vendors!F3` is HOLD, and include phase comparison/risk evolution information. A corrected v1.3 workbook exists locally but is **not yet committed** to GitHub.
 
 1. Read `README.md` and the management report; be able to explain every risk score and every HOLD decision.
 2. Confirm all organizations and artefacts in the repository are labelled **fictional/synthetic**.
@@ -28,12 +32,15 @@
 
 ## Demo flow (3–5 minutes)
 
+For an up-to-date walkthrough use [the v1.3 interview guide](16-interview-preparation.md). The original steps below describe **only the initial v1.1 baseline**, not the full three-phase case study.
+
 1. Explain the fictional company, suppliers and why cloud hosting is Tier 1.
 2. Show the 24-question due-diligence template and the synthetic evidence register.
 3. Open R-001 in Risk Register: 4×5=20 Critical before and after unverified claims.
 4. Open Calibration Log: demonstrate why the earlier 10/25 residual was invalidated and what evidence would permit a justified rescore.
 5. Show remediation tracker ACT-001 and Legal's processor agreement gate for PAY-001.
-6. Open management report: explain why all onboarding decisions remain HOLD and who can authorize exceptions.
+6. Open the initial management report: explain why all three **baseline** supplier decisions were HOLD.
+7. Open the Phase 2 reassessment and Phase 3 decision history: explain simulated conditional payroll acceptance and its subsequent withdrawal.
 
 ## Accurate CV/interview description
 

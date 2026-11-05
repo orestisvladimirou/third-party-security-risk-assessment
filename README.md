@@ -43,6 +43,7 @@ A fictional EU financial-services firm needs a consistent process for approving,
 10. [Portfolio quality audit and resolved workbook issue](docs/15-portfolio-quality-audit.md)
 11. [Three-phase interview walkthrough](docs/16-interview-preparation.md)
 12. [Workbook provenance and data versioning](docs/17-workbook-provenance.md)
+13. [Independent mock interview practice](docs/18-mock-interview.md)
 
 ## Data and evidence
 

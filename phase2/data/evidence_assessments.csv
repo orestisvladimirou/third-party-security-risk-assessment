@@ -1,0 +1,8 @@
+evidence_id,vendor_id,risk_ids,artifact_path,evidence_class,scope,confidence,usable_for_scoring,gate_use,limitation
+P2-E01,CLOUD-001,R-001,phase2/evidence/P2-E01-cloud-access.md,Synthetic technical test,12 privileged human identities; simulated policy tests,Moderate-in-simulation,Yes,No,No real-world assurance or workload identity tests
+P2-E02,CLOUD-001,R-002,phase2/evidence/P2-E02-cloud-restore.md,Partial synthetic recovery test,Single workload meets recovery targets,Low-for-whole-service,No,No,Full service and exit untested
+P2-E03,PAY-001,R-003,phase2/evidence/P2-E03-payroll-access.md,Synthetic access test,20 identities and denied access samples,Moderate-in-simulation,Yes,No,Not an actual vendor test
+P2-E04,PAY-001,R-003,phase2/evidence/P2-E04-payroll-contract.md,Fictional legal review,Model GDPR Art 28 and baseline DORA ICT terms,Scenario-assumption,No,Yes,Not executed or legally reviewed
+P2-E05,PAY-001,R-004,phase2/evidence/P2-E05-payroll-drill.md,Synthetic fallback test,120 fabricated records; 116-minute rehearsal,Moderate-in-simulation,Yes,No,Single fictional exercise
+P2-E06,SUP-001,R-005,phase2/evidence/P2-E06-support-rbac-draft.md,Unimplemented role proposal,Draft access matrix only,Low,No,No,No deployed controls tested
+P2-E07,SUP-001,R-006,phase2/evidence/P2-E07-support-notice-draft.md,Unexecuted draft,No binding notice timetable,Low,No,No,Not contractually effective

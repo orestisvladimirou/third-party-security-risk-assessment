@@ -6,7 +6,7 @@
 - Baseline v1.1: three suppliers, 24 questions, 72 synthetic responses, six risks, six remediation actions, evidence calibration.
 - Phase 2 v1.2: seven fictional exhibits, six reassessments, three decision gates.
 - Phase 3 v1.3: supplier-change notice, six current risk scores, decision history, event-driven HOLD.
-- Workbook: historical v1.1 dashboard and newly prepared cross-phase v1.3 review workbook (separate artifact).
+- Workbook: reviewed v1.3 file committed in GitHub, preserving a historical baseline dashboard and cross-phase comparison sheets.
 - Documentation and automated validation scripts.
 
 ## Findings and actions

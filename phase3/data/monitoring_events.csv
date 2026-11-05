@@ -1,0 +1,2 @@
+event_id,scenario_date,vendor_id,event_type,trigger,source_evidence_id,initial_priority,assessor_response,status
+EV-301,2026-12-01,PAY-001,Material subprocessor change,Proposed non-EEA supplier with incomplete transfer and authorization details,P3-E01,High,Reopen legal/data flow review; reassess R-003; suspend simulated conditional approval before any modeled processing,OPEN

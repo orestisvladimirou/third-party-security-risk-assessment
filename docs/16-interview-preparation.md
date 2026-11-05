@@ -48,7 +48,7 @@ Request suitable alternatives: redacted extracts, a scoped independent assurance
 **Q10. What would you improve in a real organization?**  
 Calibrate impact against documented business thresholds, add actual regulatory scoping and contract review, obtain independent control evidence, set accountable risk-acceptance authority, monitor concentration and subcontractor dependencies, and test the exit plan with business owners.
 
-## Five facts to memorise
+## Six scenario facts to memorise
 
 | Risk | Baseline | Phase 2 | Phase 3 |
 | --- | ---: | ---: | ---: |
@@ -59,7 +59,7 @@ Calibrate impact against documented business thresholds, add actual regulatory s
 | R-005 support overprivilege | 16 High | 16 High | 16 High |
 | R-006 support notification failure | 12 High | 12 High | 12 High |
 
-**Latest modeled outcome:** HOLD all three suppliers. **The workbook in the repository remains v1.1 until the corrected version is uploaded.**
+**Latest modeled outcome:** HOLD all three suppliers. The repository now contains the corrected cross-phase **v1.3 workbook**, including historical and follow-up worksheets.
 
 ## Credible CV entry (only after actual review and publication)
 

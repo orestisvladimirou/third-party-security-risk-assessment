@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3 — 2026-11-05
+
+- Added a fictional continuing-monitoring plan with review indicators and event escalation rules.
+- Simulated a proposed payroll subprocessor change; reopened contract gates and returned payroll to HOLD.
+- Added risk trend history, event/action registers, a management escalation report and independent validation tests.
+- Preserved v1.1 and v1.2 decisions as separate point-in-time snapshots; no real suppliers reviewed.
+
 ## 1.2 — 2026-11-05
 
 - Added Phase 2 fictional evidence review with seven new exhibits and a documented verification method.

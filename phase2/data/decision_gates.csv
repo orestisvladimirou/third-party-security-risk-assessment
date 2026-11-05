@@ -1,0 +1,4 @@
+vendor_id,highest_residual_score,risk_gate,privacy_gate,dora_gate,operational_gate,decision,owner,conditions,explanation
+CLOUD-001,15,HIGH_NOT_ACCEPTED,OPEN,OPEN_CRITICAL_FUNCTION_TERMS,OPEN,HOLD,Fictional risk committee,No onboarding pending critical function exit/recovery and contract evidence,Two High risks remain; no high-risk acceptance or applicable contract clearance
+PAY-001,8,MEDIUM_CONDITIONAL,PASS_SIMULATED,PASS_SIMULATED_STANDARD_ICT,PASS_SIMULATED,CONDITIONAL_SIMULATED,Fictional risk committee,Scenario-only conditional expires 2026-12-20; continue access review and fallback drill,Model legal and operational gates are assumed satisfied only in fiction; no real approval or live data
+SUP-001,16,HIGH_NOT_ACCEPTED,OPEN,OPEN_STANDARD_ICT_TERMS,OPEN,HOLD,Fictional risk committee,No onboarding pending deployed RBAC and executed incident terms,High residual risk and missing processor or incident protections

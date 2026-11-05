@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased — pre-publication quality review (2026-11-05)
+
+- Audited the three-stage risk and decision history and verified the GitHub Actions checks.
+- Added a phase-specific interview guide, final quality audit, and workbook-version documentation.
+- Added `scripts/audit_publication.py` with a `--strict` release gate and routine non-blocking CI warnings.
+- Identified the stale workbook payroll status and missing phase sheets as an outstanding publication blocker; see GitHub Issue #1.
+- Prepared a corrected cross-phase workbook separately; it has **not** been uploaded to the GitHub repository.
+
+
 ## 1.3 — 2026-11-05
 
 - Added a fictional continuing-monitoring plan with review indicators and event escalation rules.

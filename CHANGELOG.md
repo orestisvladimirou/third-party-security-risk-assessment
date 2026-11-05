@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased — workbook replacement completed (2026-11-05)
+
+- Regenerated and committed the 12-sheet reviewed workbook, correcting initial payroll to HOLD and adding Phase Comparison and Risk Evolution (`e22e4c7a`).
+- Verified the corrected workbook with `scripts/audit_publication.py --strict` during the one-time upgrade workflow.
+- Removed the one-time workflow; ordinary GitHub Actions now enforce the strict publication audit.
+- Cleared the workbook-related technical blocker. Manual privacy/content review and explicit owner approval are still needed before making the repository public.
+
+
 ## Unreleased — pre-publication quality review (2026-11-05)
 
 - Audited the three-stage risk and decision history and verified the GitHub Actions checks.

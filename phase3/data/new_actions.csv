@@ -1,0 +1,2 @@
+action_id,event_id,risk_id,vendor_id,owner,priority,scenario_due_date,required_evidence,status
+ACT-007,EV-301,R-003,PAY-001,Fictional Legal DPO and Security Manager,P1,2026-12-03,Updated subprocessor list and locations plus documented authorization and transfer review,OPEN

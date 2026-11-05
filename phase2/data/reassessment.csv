@@ -1,0 +1,7 @@
+risk_id,vendor_id,baseline_likelihood,baseline_impact,baseline_score,phase2_likelihood,phase2_impact,phase2_score,phase2_rating,scoring_evidence_ids,other_evidence_ids,change_basis,rationale,decision,action_id
+R-001,CLOUD-001,4,5,20,2,5,10,High,P2-E01,,Likelihood-only,Simulated 12/12 human admin identity coverage and policy challenges lower likelihood but not impact.,HOLD,ACT-001
+R-002,CLOUD-001,3,5,15,3,5,15,High,,P2-E02,Unchanged,One restored workload is insufficient assurance for a critical service and its exit dependencies.,HOLD,ACT-002
+R-003,PAY-001,3,4,12,2,4,8,Medium,P2-E03,P2-E04,Likelihood-only,Fictional JIT support and denied access tests reduce supplier access likelihood; contract is a separate gate.,CONDITIONAL_SIMULATED,ACT-003
+R-004,PAY-001,3,4,12,3,2,6,Medium,P2-E05,,Impact-only,Fabricated payroll data restored within time objective reduces impact not outage likelihood.,CONDITIONAL_SIMULATED,ACT-004
+R-005,SUP-001,4,4,16,4,4,16,High,,P2-E06,Unchanged,Role matrix draft does not demonstrate deployed least-privilege enforcement.,HOLD,ACT-005
+R-006,SUP-001,3,4,12,3,4,12,High,,P2-E07,Unchanged,Vague unexecuted notice draft does not ensure timely reporting.,HOLD,ACT-006

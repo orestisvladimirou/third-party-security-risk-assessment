@@ -62,7 +62,7 @@ The validator recomputes every score, checks risk bands, and verifies vendor, qu
 
 AFS is **assumed for this exercise** to be an EU financial entity within DORA scope. Not every third-party function is automatically a DORA **critical or important function**. In this case cloud hosting is **assumed critical**; the others are assessed separately. The GDPR controller/processor relationship is evaluated per processing activity, not inferred merely from the supplier being a SaaS provider. Contract checklists identify subjects for legal review; they are **not legal findings**.
 
-Risk scores are **scenario-based judgments**, not statistical frequencies or assurance of compliance. In version 1.1 unverified control claims are not counted as effective controls, so residual scores remain at inherent levels pending evidence. **All three supplier onboarding decisions are HOLD.** See the calibration log for what changed from version 1.0.
+Risk scores are **scenario-based judgments**, not statistical frequencies or assurance of compliance. In version 1.1 unverified control claims are not counted as effective controls, so residual scores remain at inherent levels pending evidence. **All three initial (v1.1) supplier decisions are HOLD.** See the calibration log for what changed from version 1.0.
 
 ## Authoring and GitHub presentation
 

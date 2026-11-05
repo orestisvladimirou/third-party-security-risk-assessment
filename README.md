@@ -4,9 +4,9 @@
 
 > **SIMULATED CASE STUDY.** Asteria Financial Services (AFS), all supplier names, evidence, incidents, control claims, decisions and risk ratings in this repository are fictional. This is **not** an audit of any real entity, an ISO/IEC 27001 certification, regulatory legal advice, or a representation of paid professional experience.
 
-## Publication status: private, under review
+## Publication status: private, technical checks passed
 
-**Not ready to publish yet.** The repository's original Excel workbook contains one obsolete v1.1 payroll decision. A corrected v1.3 workbook exists separately and must replace the old binary before publication. Read the [portfolio quality audit](docs/15-portfolio-quality-audit.md), [workbook provenance](docs/17-workbook-provenance.md), and [updated interview preparation](docs/16-interview-preparation.md).
+The repository now contains the **reviewed v1.3 Excel workbook**, replacing the obsolete payroll decision and adding Phase Comparison and Risk Evolution sheets. Automated technical release checks passed. **Keep the repository private until the owner completes a manual review and expressly approves publication.** Read the [portfolio quality audit](docs/15-portfolio-quality-audit.md), [workbook provenance](docs/17-workbook-provenance.md), and [updated interview preparation](docs/16-interview-preparation.md).
 
 ## Phase 2 follow-up
 

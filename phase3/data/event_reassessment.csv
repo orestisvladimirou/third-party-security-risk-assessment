@@ -1,0 +1,7 @@
+risk_id,vendor_id,phase2_likelihood,phase2_impact,phase2_score,phase3_likelihood,phase3_impact,phase3_score,phase3_rating,change_evidence,review_basis,phase3_decision
+R-001,CLOUD-001,2,5,10,2,5,10,High,,No new material evidence; retain Phase 2 judgment,HOLD
+R-002,CLOUD-001,3,5,15,3,5,15,High,,Full critical service resilience still unverified,HOLD
+R-003,PAY-001,2,4,8,3,4,12,High,P3-E01,New proposed subprocessor falls outside verified Phase 2 access scope and lacks documented authorization/transfer assessment; confidence in assumed protection reduced,HOLD
+R-004,PAY-001,3,2,6,3,2,6,Medium,,Fabricated fallback drill evidence unchanged,HOLD
+R-005,SUP-001,4,4,16,4,4,16,High,,RBAC remains draft and untested,HOLD
+R-006,SUP-001,3,4,12,3,4,12,High,,Binding notice clause still absent,HOLD

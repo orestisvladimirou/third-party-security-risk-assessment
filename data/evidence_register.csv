@@ -1,0 +1,9 @@
+evidence_id,vendor_id,control,evidence_type,file,collected_on,validation,limitations
+SIM-E01,CLOUD-001,Admin MFA,Synthetic document,evidence/SIM-E01-cloud-mfa-summary.md,2026-11-05,Unverified vendor assertion,No configuration export; not all administrator identities accounted for
+SIM-E02,CLOUD-001,Backup/restore,Synthetic document,evidence/SIM-E02-cloud-restore-summary.md,2026-11-05,Unverified vendor assertion,Not tested on AFS workload; unclear RTO/RPO coverage
+SIM-E03,PAY-001,Encryption,Synthetic document,evidence/SIM-E03-payroll-security-sheet.md,2026-11-05,Unverified vendor assertion,No independent audit or cryptographic configuration proof
+SIM-E04,PAY-001,GDPR DPA,Missing,,2026-11-05,Not available,Only unsigned draft terms asserted in scenario
+SIM-E05,PAY-001,Backups,Synthetic self-attestation,,2026-11-05,Unverified vendor assertion,No test report or backup recovery sample
+SIM-E06,SUP-001,RBAC and entitlement review,Missing,,2026-11-05,Not available,No role matrix or last quarterly review
+SIM-E07,SUP-001,Incident notification,Missing,,2026-11-05,Not available,No agreed notification timeline or terms
+SIM-E08,SUP-001,Subprocessor locations,Missing,,2026-11-05,Not available,Locations and transfer safeguards not documented

@@ -1,0 +1,22 @@
+# Vendor intake form — blank template
+
+- Assessment ID:
+- Assessment date:
+- Supplier / legal entity:
+- Service provided / service owner:
+- Procurement status:
+- Systems and data involved:
+- Personal-data categories / GDPR roles by processing activity:
+- Business services dependent on supplier:
+- Data hosting / access locations:
+- Subprocessors / key dependencies:
+- Existing supplier alternatives / switching effort:
+- Does service support a critical or important function (DORA)? Evidence for determination:
+- Tier: 1 Critical / 2 High / 3 Standard; reasons:
+- Relevant contract / DPA / SLA references:
+- Evidence received, scope and date:
+- Assessment lead and review approver:
+- Identified risks, control owners and due dates:
+- Decision: Approve / Conditional / Hold / Reject:
+- Contractual or legal gates outstanding:
+- Review date / change triggers:

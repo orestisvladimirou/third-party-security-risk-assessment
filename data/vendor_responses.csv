@@ -1,0 +1,73 @@
+vendor_id,question_id,answer,evidence_id,evidence_quality,assessor_note,review_status
+CLOUD-001,Q01,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q02,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q03,Partial,SIM-E01,Synthetic document,Admin MFA claimed; phishing-resistant enforcement and account coverage not established.,Needs verification
+CLOUD-001,Q04,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q05,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q06,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q07,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q08,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q09,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q10,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q11,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q12,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q13,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q14,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q15,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q16,Partial,SIM-E02,Synthetic document,Fictional restore performed for sample workload; business-specific RTO/RPO unverified.,Needs verification
+CLOUD-001,Q17,Yes,SIM-E02,Synthetic document,See synthetic evidence register; verify before acceptance.,Needs verification
+CLOUD-001,Q18,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q19,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q20,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q21,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q22,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q23,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+CLOUD-001,Q24,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q01,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q02,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q03,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q04,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q05,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q06,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q07,Yes,SIM-E03,Synthetic document,See synthetic evidence register; verify before acceptance.,Needs verification
+PAY-001,Q08,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q09,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q10,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q11,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q12,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q13,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q14,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q15,Yes,SIM-E05,Synthetic document,See synthetic evidence register; verify before acceptance.,Needs verification
+PAY-001,Q16,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q17,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q18,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q19,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q20,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q21,No,SIM-E04,Missing,Draft DPA only; no executed Art. 28 processor terms.,Needs verification
+PAY-001,Q22,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q23,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+PAY-001,Q24,Unknown,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q01,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q02,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q03,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q04,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q05,No,SIM-E06,Missing,All support agents can view broad ticket categories; no recurring review record.,Needs verification
+SUP-001,Q06,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q07,Yes,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q08,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q09,Unknown,SIM-E08,Missing,See synthetic evidence register; verify before acceptance.,Needs verification
+SUP-001,Q10,Unknown,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q11,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q12,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q13,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q14,No,SIM-E07,Missing,Incident response exists internally but no customer notification commitment.,Needs verification
+SUP-001,Q15,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q16,Unknown,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q17,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q18,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q19,Unknown,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q20,Unknown,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q21,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q22,Partial,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q23,Unknown,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification
+SUP-001,Q24,Unknown,,Synthetic self-attestation,Fictional response; supporting evidence not independently validated.,Needs verification

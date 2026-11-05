@@ -1,0 +1,25 @@
+question_id,domain,question,requested_evidence,nist_csf
+Q01,GOV,Is there a documented information security program with accountable owner?,Policy index; review/approval evidence,GV.SC-06;GV.SC-07
+Q02,GOV,Are security policies reviewed and updated at least annually?,Policy revision history,GV.SC-06;GV.SC-07
+Q03,IAM,Is MFA enforced for privileged administrator access?,Configuration export; privileged account coverage,GV.SC-06;GV.SC-07
+Q04,IAM,Is MFA enforced for standard users with access to sensitive data?,Conditional access/access control settings,GV.SC-06;GV.SC-07
+Q05,IAM,Are permissions role-based and reviewed periodically?,Role matrix; dated entitlement review,GV.SC-06;GV.SC-07
+Q06,IAM,Are user departures and access revocations documented?,Joiner/mover/leaver procedures and sample,GV.SC-06;GV.SC-07
+Q07,DATA,Is sensitive data encrypted in transit and at rest?,Encryption architecture; relevant settings,GV.SC-06;GV.SC-07
+Q08,DATA,Are data retention and secure deletion mechanisms defined?,Retention/deletion policy and test,GV.SC-06;GV.SC-07
+Q09,DATA,"Are personal-data flows, locations and subprocessors documented?",RoPA/data flow; subprocessor list,GV.SC-06;GV.SC-07
+Q10,DATA,Are cross-border transfers and their legal safeguards identified?,Transfer mapping and mechanism,GV.SC-06;GV.SC-07
+Q11,SECOPS,Are critical vulnerabilities identified and remediated within defined SLAs?,Scanning reports; SLA; sample evidence,GV.SC-06;GV.SC-07
+Q12,SECOPS,Are security events centrally logged and actively monitored?,Logging architecture and monitored alert sample,GV.SC-06;GV.SC-07
+Q13,SECOPS,Is an incident response plan exercised and kept current?,"Plan, test record and lessons learned",GV.SC-06;GV.SC-07
+Q14,SECOPS,Are customer incident notifications defined and tested?,Contract term; notification procedure,GV.SC-06;GV.SC-07
+Q15,RES,Are backups regularly taken and protected against compromise?,Backup control report,GV.SC-06;GV.SC-07
+Q16,RES,Have restores been tested against RPO/RTO requirements?,Dated restore test with objectives,GV.SC-06;GV.SC-07
+Q17,RES,Is business continuity documented and exercised?,BCP/DR test summary,GV.SC-06;GV.SC-07
+Q18,RES,Can customer data be exported and deleted on exit?,Export schema; deletion/exit test,GV.SC-06;GV.SC-07
+Q19,SUPPLY,Does the vendor monitor material subprocessors and supplier changes?,Due diligence/monitoring process,GV.SC-06;GV.SC-07
+Q20,SUPPLY,Are subprocessor changes notified ahead of time?,Contract clause; notification example,GV.SC-06;GV.SC-07
+Q21,LEGAL,Is a controller–processor agreement in place where required?,Executed DPA; Art. 28 items,GV.SC-05;GV.SC-07
+Q22,LEGAL,Does the contract cover service levels locations and termination?,Executed contract and SLA,GV.SC-05;GV.SC-07
+Q23,LEGAL,Are audit/inspection rights appropriate to the service?,Contract clauses; assurance rights,GV.SC-05;GV.SC-07
+Q24,LEGAL,Are additional obligations addressed for any critical/important ICT function?,Criticality assessment; relevant DORA contractual provisions,GV.SC-05;GV.SC-07

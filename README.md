@@ -1,6 +1,6 @@
 # Third-Party Security Risk Assessment & Vendor Due Diligence
 
-**Independent cybersecurity portfolio exercise · Version 1.1 · 5 November 2026**
+**Independent cybersecurity portfolio exercise · Version 1.2 · 5 November 2026**
 
 > **SIMULATED CASE STUDY.** Asteria Financial Services (AFS), all supplier names, evidence, incidents, control claims, decisions and risk ratings in this repository are fictional. This is **not** an audit of any real entity, an ISO/IEC 27001 certification, regulatory legal advice, or a representation of paid professional experience.
 

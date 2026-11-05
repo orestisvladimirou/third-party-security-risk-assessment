@@ -1,17 +1,17 @@
 # 17 — Workbook provenance and version controls
 
-This repository contains an Excel workbook, `Third_Party_Risk_Assessment.xlsx`, originally generated for the **v1.1 baseline assessment**. It is **not** a live report of the later simulated follow-up and monitoring phases.
+This repository contains the reviewed **v1.3 Excel workbook**, with the historical v1.1 dashboard preserved and additional Phase Comparison and Risk Evolution sheets. No worksheet represents a live supplier assessment.
 
-## Known repository-file discrepancy (QA-01)
+## Resolved repository-file discrepancy (QA-01)
 
-The workbook's `Vendors!F3` currently contains **CONDITIONAL - NO LIVE DATA** (an obsolete draft), even though `data/vendors.csv`, `data/risk_register.csv`, and the workbook's own `Dashboard` record correctly show **HOLD** for the initial Helios payroll assessment.
+The original workbook had an obsolete **CONDITIONAL - NO LIVE DATA** entry at `Vendors!F3`. The corrected workbook on GitHub now displays **HOLD** for that initial assessment.
 
-An updated **v1.3 reviewed workbook** has been generated outside the repository. It corrects `Vendors!F3`, retains the ten historical worksheets, and adds:
+The reviewed **v1.3 workbook was committed** to GitHub as commit `e22e4c7a`. It corrects `Vendors!F3`, retains the ten historical worksheets, and adds:
 - `Phase Comparison`: three vendors across v1.1 baseline, v1.2 follow-up and v1.3 event monitoring, with the latest highest risk score.
 - `Risk Evolution`: all six risk scores across three phases, calculated as likelihood multiplied by impact.
 - An explicit baseline note on the original `Dashboard` tab.
 
-**Action required before public release:** Replace the stale repository workbook with the reviewed v1.3 workbook (or commit that newer workbook as an additional versioned file and explicitly archive the original). Validate the committed file rather than assuming a local download and GitHub's copy are identical.
+**Verification:** The one-time upgrade workflow executed the strict publication audit successfully against the regenerated workbook before committing it. The later routine checks should continue to run against the committed file.
 
 ## Authoritative data by phase
 
@@ -24,7 +24,7 @@ An updated **v1.3 reviewed workbook** has been generated outside the repository.
 
 The historical `data/calibration_log.csv` intentionally retains earlier rejected draft values; those are not current approvals.
 
-## Verification targets after replacing Excel
+## Verification targets (satisfied in reviewed workbook)
 
 1. The `Vendors` sheet shows PAY-001 **HOLD**.
 2. The `Dashboard` states it is a v1.1 baseline, not the latest decision.

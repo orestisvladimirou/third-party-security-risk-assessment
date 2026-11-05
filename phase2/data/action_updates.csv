@@ -1,0 +1,7 @@
+action_id,risk_id,vendor_id,baseline_status,phase2_status,observation,next_step
+ACT-001,R-001,CLOUD-001,Open,VERIFIED_IN_SIMULATION,Constructed evidence supports reduction in human admin takeover likelihood,Monitor admin access and separately investigate workload identities
+ACT-002,R-002,CLOUD-001,Open,PARTIAL,Only one application component restored,Conduct complete critical service recovery and exit exercise
+ACT-003,R-003,PAY-001,Open,GATE_PASS_SIMULATED,JIT support access modeled and contractual gate assumed satisfied,Quarterly recertification and subprocessor monitoring
+ACT-004,R-004,PAY-001,Open,VERIFIED_IN_SIMULATION,Dry run meets four-hour objective with fabricated payroll records,Repeat fallback rehearsal after changes
+ACT-005,R-005,SUP-001,Open,OPEN,Undeployed role matrix supplied,Request deployed role exports and negative tests
+ACT-006,R-006,SUP-001,Open,OPEN,Notice clause remains unexecuted and vague,Agree enforceable timeline and test escalation
